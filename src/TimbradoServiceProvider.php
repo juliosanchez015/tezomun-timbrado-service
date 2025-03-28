@@ -7,6 +7,9 @@ use Illuminate\Support\ServiceProvider;
 
 class TimbradoServiceProvider extends ServiceProvider
 {
+    /**
+     * @return void
+     */
     public function register()
     {
         $this->mergeConfigFrom(__DIR__.'/../config/timbrado.php', 'timbrado');
@@ -16,6 +19,9 @@ class TimbradoServiceProvider extends ServiceProvider
         });
     }
 
+    /**
+     * @return void
+     */
     public function boot()
     {
         $this->publishes([

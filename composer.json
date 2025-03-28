@@ -1,7 +1,7 @@
 {
     "name": "tezomun/timbrado-service",
     "description": "Paquete para la integración con el servicio de timbrado de Comercio Digital, timbrado y cancelación, también generación de xml de timbrado y cancelación como servicio",
-    "version": "v1.1.1",
+    "version": "v1.1.2",
     "type": "library",
     "require": {
         "php": ">=7.4",
@@ -23,7 +23,7 @@
             "email": "dunkel015@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "extra": {
         "laravel": {
