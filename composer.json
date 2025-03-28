@@ -1,0 +1,34 @@
+{
+    "name": "tezomun/timbrado-service",
+    "description": "Paquete para la integración con el servicio de timbrado de Comercio Digital, timbrado y cancelación, también generación de xml de timbrado y cancelación como servicio",
+    "version": "v1.1.0",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "eclipxe/cfdiutils": "^2.31",
+        "phpcfdi/xml-cancelacion": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tezomun\\TimbradoService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julio Sanchez",
+            "email": "dunkel015@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tezomun\\TimbradoService\\TimbradoServiceProvider"
+            ]
+        }
+    }
+}
